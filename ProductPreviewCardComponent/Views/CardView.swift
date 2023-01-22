@@ -7,6 +7,8 @@ struct CardView: View {
             ProductDetail()
         }
         .fixedSize(horizontal: false, vertical: true)
+        .cornerRadius(20)
+        .shadow(radius: 5)
         .padding()
     }
 }
