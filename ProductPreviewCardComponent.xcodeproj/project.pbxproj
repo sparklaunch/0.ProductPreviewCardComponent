@@ -52,10 +52,9 @@
 		9036BBC6297DEC140006C850 /* ProductPreviewCardComponent */ = {
 			isa = PBXGroup;
 			children = (
-				9036BBC7297DEC140006C850 /* ProductPreviewCardComponentApp.swift */,
-				9036BBC9297DEC140006C850 /* ContentView.swift */,
-				9036BBCB297DEC150006C850 /* Assets.xcassets */,
 				9036BBCD297DEC150006C850 /* ProductPreviewCardComponent.entitlements */,
+				9036BBD7297DEC8D0006C850 /* Views */,
+				9036BBD6297DEC800006C850 /* App */,
 				9036BBCE297DEC150006C850 /* Preview Content */,
 			);
 			path = ProductPreviewCardComponent;
@@ -67,6 +66,23 @@
 				9036BBCF297DEC150006C850 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9036BBD6297DEC800006C850 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9036BBC7297DEC140006C850 /* ProductPreviewCardComponentApp.swift */,
+				9036BBCB297DEC150006C850 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9036BBD7297DEC8D0006C850 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9036BBC9297DEC140006C850 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
