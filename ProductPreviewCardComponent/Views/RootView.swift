@@ -9,9 +9,3 @@ struct RootView: View {
         .edgesIgnoringSafeArea(.all)
     }
 }
-
-struct RootView_Previews: PreviewProvider {
-    static var previews: some View {
-        RootView()
-    }
-}

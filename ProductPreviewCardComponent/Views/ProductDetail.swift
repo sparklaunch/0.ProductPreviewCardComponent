@@ -6,6 +6,7 @@ struct ProductDetail: View {
             Color.white
             VStack {
                 Text("PERFUME")
+                    .foregroundColor(Color("TextColor"))
                     .font(.headline)
                     .kerning(10)
             }
