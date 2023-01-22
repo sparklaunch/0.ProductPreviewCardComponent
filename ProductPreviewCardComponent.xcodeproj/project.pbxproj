@@ -11,6 +11,8 @@
 		9036BBCA297DEC140006C850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBC9297DEC140006C850 /* ContentView.swift */; };
 		9036BBCC297DEC150006C850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9036BBCB297DEC150006C850 /* Assets.xcassets */; };
 		9036BBD0297DEC150006C850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9036BBCF297DEC150006C850 /* Preview Assets.xcassets */; };
+		9036BBD9297DEE470006C850 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBD8297DEE470006C850 /* RootView.swift */; };
+		9036BBDB297DEE610006C850 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBDA297DEE610006C850 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9036BBCB297DEC150006C850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9036BBCD297DEC150006C850 /* ProductPreviewCardComponent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductPreviewCardComponent.entitlements; sourceTree = "<group>"; };
 		9036BBCF297DEC150006C850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9036BBD8297DEE470006C850 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9036BBDA297DEE610006C850 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				9036BBC9297DEC140006C850 /* ContentView.swift */,
+				9036BBD8297DEE470006C850 /* RootView.swift */,
+				9036BBDA297DEE610006C850 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 			files = (
 				9036BBCA297DEC140006C850 /* ContentView.swift in Sources */,
 				9036BBC8297DEC140006C850 /* ProductPreviewCardComponentApp.swift in Sources */,
+				9036BBDB297DEE610006C850 /* BackgroundView.swift in Sources */,
+				9036BBD9297DEE470006C850 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
