@@ -94,16 +94,32 @@
 		9036BBD7297DEC8D0006C850 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				906894D0297DF50E00ADE305 /* Card */,
 				9036BBC9297DEC140006C850 /* ContentView.swift */,
 				9036BBD8297DEE470006C850 /* RootView.swift */,
 				9036BBDA297DEE610006C850 /* BackgroundView.swift */,
-				9036BBDC297DEF440006C850 /* CardView.swift */,
-				9036BBDE297DEFA30006C850 /* ProductImage.swift */,
-				9036BBE0297DEFF80006C850 /* ProductDetail.swift */,
-				906894CC297DF3A500ADE305 /* HeadlineText.swift */,
-				906894CE297DF3E000ADE305 /* TitleText.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		906894D0297DF50E00ADE305 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				906894D1297DF52000ADE305 /* CardDetail */,
+				9036BBDC297DEF440006C850 /* CardView.swift */,
+				9036BBDE297DEFA30006C850 /* ProductImage.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		906894D1297DF52000ADE305 /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				906894CE297DF3E000ADE305 /* TitleText.swift */,
+				906894CC297DF3A500ADE305 /* HeadlineText.swift */,
+				9036BBE0297DEFF80006C850 /* ProductDetail.swift */,
+			);
+			path = CardDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
