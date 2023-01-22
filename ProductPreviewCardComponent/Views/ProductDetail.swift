@@ -5,15 +5,8 @@ struct ProductDetail: View {
         ZStack(alignment: .leading) {
             Color.white
             VStack(alignment: .leading) {
-                Text("PERFUME")
-                    .foregroundColor(Color("TextColor"))
-                    .font(.headline)
-                    .kerning(10)
-                    .padding(.vertical, 5)
-                Text("Gabrielle Essence Eau De Parfum")
-                    .font(.largeTitle)
-                    .fontWeight(.black)
-                    .foregroundColor(Color("TitleColor"))
+                HeadlineText()
+                TitleText()
             }
             .padding(20)
         }

@@ -16,6 +16,8 @@
 		9036BBDD297DEF440006C850 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBDC297DEF440006C850 /* CardView.swift */; };
 		9036BBDF297DEFA30006C850 /* ProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBDE297DEFA30006C850 /* ProductImage.swift */; };
 		9036BBE1297DEFF80006C850 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BBE0297DEFF80006C850 /* ProductDetail.swift */; };
+		906894CD297DF3A500ADE305 /* HeadlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894CC297DF3A500ADE305 /* HeadlineText.swift */; };
+		906894CF297DF3E000ADE305 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894CE297DF3E000ADE305 /* TitleText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9036BBDC297DEF440006C850 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9036BBDE297DEFA30006C850 /* ProductImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImage.swift; sourceTree = "<group>"; };
 		9036BBE0297DEFF80006C850 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		906894CC297DF3A500ADE305 /* HeadlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineText.swift; sourceTree = "<group>"; };
+		906894CE297DF3E000ADE305 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				9036BBDC297DEF440006C850 /* CardView.swift */,
 				9036BBDE297DEFA30006C850 /* ProductImage.swift */,
 				9036BBE0297DEFF80006C850 /* ProductDetail.swift */,
+				906894CC297DF3A500ADE305 /* HeadlineText.swift */,
+				906894CE297DF3E000ADE305 /* TitleText.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,9 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9036BBCA297DEC140006C850 /* ContentView.swift in Sources */,
+				906894CF297DF3E000ADE305 /* TitleText.swift in Sources */,
 				9036BBC8297DEC140006C850 /* ProductPreviewCardComponentApp.swift in Sources */,
 				9036BBDB297DEE610006C850 /* BackgroundView.swift in Sources */,
 				9036BBE1297DEFF80006C850 /* ProductDetail.swift in Sources */,
+				906894CD297DF3A500ADE305 /* HeadlineText.swift in Sources */,
 				9036BBD9297DEE470006C850 /* RootView.swift in Sources */,
 				9036BBDD297DEF440006C850 /* CardView.swift in Sources */,
 				9036BBDF297DEFA30006C850 /* ProductImage.swift in Sources */,
