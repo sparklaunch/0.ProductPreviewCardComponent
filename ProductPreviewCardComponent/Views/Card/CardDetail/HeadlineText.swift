@@ -6,6 +6,6 @@ struct HeadlineText: View {
             .foregroundColor(Color("TextColor"))
             .font(.headline)
             .kerning(10)
-            .padding(.vertical, 5)
+            .padding(.vertical, 8)
     }
 }

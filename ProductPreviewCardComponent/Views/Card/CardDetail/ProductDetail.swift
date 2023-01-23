@@ -7,7 +7,9 @@ struct ProductDetail: View {
             VStack(alignment: .leading) {
                 HeadlineText()
                 TitleText()
+                ProductDescription()
             }
+            .fixedSize(horizontal: false, vertical: true)
             .padding(20)
         }
     }

@@ -6,5 +6,6 @@ struct TitleText: View {
             .font(.largeTitle)
             .fontWeight(.black)
             .foregroundColor(Color("TitleColor"))
+            .padding(.bottom, 10)
     }
 }
